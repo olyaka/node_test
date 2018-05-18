@@ -1,0 +1,13 @@
+html
+    head
+        title= title
+    body
+        h1= message
+        form(method='POST' action='/main')
+          div
+            label(for='name') Ticker:
+            input#ticker(type='text', name='ticker')
+          div
+            label(for='key') Key:
+            input#key(type='text', name='key')
+            button(type='submit') Submit
