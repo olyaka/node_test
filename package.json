@@ -1,10 +1,10 @@
 {
   "name": "node_test",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +16,17 @@
     "path": "^0.12.7",
     "pug": "^2.0.3",
     "request": "^2.86.0"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olyaka/node_test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/olyaka/node_test/issues"
+  },
+  "homepage": "https://github.com/olyaka/node_test#readme",
+  "description": ""
 }

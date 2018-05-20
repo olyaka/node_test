@@ -20,9 +20,7 @@ app.get('/main', function (req, res) {
 })
 
 app.post('/main', urlencodedParser, function (req, res) {
-    var body = APIrequest.APIrequest(req, res);
-
-    res.render('output', {title: 'Test', message: 'Output data', result: 'body'});
+    APIrequest.APIrequest(req, res);
 });
 
 app.listen(port, function () {
